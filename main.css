@@ -97,7 +97,68 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+#logo {
+  float: left;
+  width: 90px;
+  padding: 40px;
+}
 
+#dots {
+  text-align: center;
+  color: #444;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+
+.nav-bar {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-size: 11px;
+  text-align: center;
+  display: inline-block;
+  padding: 40px 420px;
+  padding-bottom: 0;
+}
+
+.nav-bar li {
+  list-style: none;
+  padding: 15px;
+  display: block;
+  width: 60px;
+  float: left;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: #000;
+}
+
+.nav-bar a:hover {
+  color: #808080;
+}
+
+.body {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: normal;
+  font-size: 36px;
+  color: #444;
+  text-align: center;
+  padding: 40px 300px 15px 300px;
+}
+
+.info {
+  font-family: "brandon-grotesque", sans-serif;
+  text-transform: uppercase;
+  font-size: 11px;
+  text-align: center;
+  padding: 20px;
+}
+
+.gallery {
+  padding: 60px;
+  position: relative;
+  float: left;
+}
 
 
 
