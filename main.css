@@ -97,6 +97,10 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+ html {
+   box-sizing: border-box;
+ }
+
 #logo {
   float: left;
   width: 90px;
@@ -147,18 +151,91 @@ textarea {
 }
 
 .info {
-  font-family: "brandon-grotesque", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   font-size: 11px;
   text-align: center;
   padding: 20px;
+  clear: both;
 }
 
 .gallery {
-  padding: 60px;
   position: relative;
+  display: block;
+  text-decoration: none;
+}
+
+.gallery a {
+  text-decoration: none;
+  color: transparent;
+}
+
+.gallery a:hover {
+  text-decoration: none;
+  color: #333;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+
+.gallery a:hover h3{
+  color: #222;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+.gallery img {
+  position: relative;
+  z-index: 0;
+}
+
+.mainimg {
+  width: 80%;
+  z-index: 0;
+  position: relative;
+  padding: 60px 140px 0px 140px;
   float: left;
 }
+
+.half {
+  width: 50%;
+  z-index: 0;
+  position: relative;
+  float: left;
+  padding: 20px;
+}
+
+.most {
+  width: 66%;
+  z-index: 0;
+  position: relative;
+  float: left;
+  padding: 20px;
+}
+
+.mainimg h3,
+.mainimg p,
+.half h3,
+.half p,
+.most h3,
+.most p
+ {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 0;
+  margin: 0;
+  transform: translate(-50%,-50%);
+  z-index: 10;
+}
+
+.mainimg p,
+.half p,
+.most p {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+}
+
 
 
 
