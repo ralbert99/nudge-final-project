@@ -197,19 +197,30 @@ textarea {
 }
 
 .half {
+  width: 35%;
+  z-index: 0;
+  position: relative;
+  float: left;
+  padding: 20px;
+  padding-left: 140px;
+}
+
+.most {
   width: 50%;
   z-index: 0;
   position: relative;
   float: left;
   padding: 20px;
+  padding-left: 140px;
 }
 
-.most {
-  width: 66%;
+.little {
+  width: 20%;
   z-index: 0;
   position: relative;
   float: left;
   padding: 20px;
+  padding-left: 140px;
 }
 
 .mainimg h3,
@@ -217,7 +228,9 @@ textarea {
 .half h3,
 .half p,
 .most h3,
-.most p
+.most p,
+.little h3,
+.little p
  {
   position: absolute;
   top: 50%;
@@ -230,7 +243,8 @@ textarea {
 
 .mainimg p,
 .half p,
-.most p {
+.most p,
+.little p {
   position: absolute;
   top: 55%;
   left: 50%;
